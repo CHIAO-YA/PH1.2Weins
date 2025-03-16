@@ -10,7 +10,7 @@ namespace PH1._2Weins
     {
         static void Main(string[] args)
         {
-            ////作業1-1
+            ////作業1-1 沒問題  另一種簡化方式
             //Console.WriteLine("請輸入a、b、c、d:");
             //Console.Write("a:");
             //int a = Convert.ToInt32(Console.ReadLine());
@@ -21,14 +21,14 @@ namespace PH1._2Weins
             //Console.Write("d:");
             //int d = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine("[(a+b)/(c-d)]*2 = ");
-            //int z = (a + b) / (c - d) * 2;
-            //Console.WriteLine(z);
-
-            //Console.WriteLine("a = {0}, b = {1}, c = {2}, d = {3}, 答案={4}", a, b, c, d, z);
-            //Console.Write((a + b) / (c - d) * 2);
+            //Console.WriteLine($"[(a+b)/(c-d)]*2 = {z}");//加上${z}即可
+            ////下面可以省略
+            ////Console.WriteLine(z);
+            ////Console.WriteLine("a = {0}, b = {1}, c = {2}, d = {3}, 答案={4}", a, b, c, d, z);
+            ////Console.Write((a + b) / (c - d) * 2);
             //Console.ReadKey();
 
-            //作業1-2
+            //作業1-2  //小錯誤 基本運用沒問題
 
             //Console.WriteLine("請輸入a1、b1、c1、a2、b2、c2 :");
             //Console.Write("a1:");
@@ -45,7 +45,7 @@ namespace PH1._2Weins
             //int c2 = Convert.ToInt32(Console.ReadLine());
 
             //int x = ((c1 * b2) - (c2 * b1)) / ((a1 * b2) - (a2 * b1));
-            //int y = ((c1 * a2) - (c2 * a2)) / ((b1 * a2) - (a1 * b2));
+            //int y = ((c1 * a2) - (c2 * a2)) / ((b1 * a2) - (a1 * b2));//小錯誤y = (c₁a₂ - c₂"a₁") / (b₁a₂ - a₁b₂)
 
             //Console.WriteLine("二元一次方程式 x、y 的解為:");
             //Console.WriteLine($" x = {x}");
@@ -54,7 +54,7 @@ namespace PH1._2Weins
             //Console.ReadKey();
 
 
-            //作業1-3
+            //作業1-3 沒問題
 
             //Console.WriteLine("請輸入a、b：");
             //Console.Write("a:");
@@ -66,7 +66,7 @@ namespace PH1._2Weins
             //Console.ReadKey();
 
 
-            //作業1-4
+            //作業1-4 沒問題
 
             //Console.WriteLine("請輸入a、b:");
             //Console.Write("a:");
@@ -78,7 +78,7 @@ namespace PH1._2Weins
             //Console.WriteLine($"a = {a}, b = {b}, 答案 a平方 + b平方後再開根號 = {y}");
             //Console.ReadKey();
 
-            //作業1-5
+            //作業1-5 沒問題
 
             //Console.WriteLine("請輸入a、b、c:");
             //Console.Write("a:");
@@ -92,21 +92,21 @@ namespace PH1._2Weins
             //Console.ReadKey();
 
 
-            //作業1-6
+            //作業1-6 沒問題
 
             //Console.Write("請輸入任意正負整數值:");
             //int a = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine("輸入值 = {0} 、 絕對值為{1}", a, Math.Abs(a));
             //Console.ReadKey();
 
-            //作業1-7
+            //作業1-7 沒問題
 
             //Console.Write("請輸入西元年:");
             //int a = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine($"西元{a}年，對應的民國年為: 民國{a - 1911}年");
             //Console.ReadKey();
 
-            //作業1-8
+            //作業1-8 //可以用ToString("F2")取小數點後2位
             // (BMI＝體重(公斤)÷身高(公尺)÷身高(公尺)
 
             //Console.Write("請輸入身高(m):");
@@ -124,18 +124,18 @@ namespace PH1._2Weins
             //Console.WriteLine($"身高 = {a} cm、體重 = {b} kg，BMI值 = {b / Math.Pow(a/100, 2)}");
             //Console.ReadKey();
 
-            //補充
-            //value：要四捨五入的數字
-            //digits：要保留的小數位數
-            //變數型態整理 沒問題
-            //變數宣告的方法 沒問題
-            //型別之間如何轉換 沒問題
-            //運算符的用法與運算的優先級 沒問題
-            //可以多補充一個 字串處理的方法
+            補充
+            value：要四捨五入的數字
+            digits：要保留的小數位數
+            變數型態整理 沒問題
+            變數宣告的方法 沒問題
+            型別之間如何轉換 沒問題
+            運算符的用法與運算的優先級 沒問題
+            可以多補充一個 字串處理的方法
 
             //HP2
 
-            //習題2-1
+            //習題2-1 沒問題
 
             //        Console.WriteLine("請輸入x、y:");
             //            Console.Write("x:");
@@ -156,31 +156,31 @@ namespace PH1._2Weins
             //Console.ReadKey();
 
 
-            //習題2-2
-
+            //習題2-2 沒問題 另一種簡化方式
             //Console.WriteLine("請輸入x、y:");
             //Console.Write("x:");
             //int x = Convert.ToInt32(Console.ReadLine());
             //Console.Write("y:");
             //int y = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine($"x = {x}、y = {y}");
-
-            //if (x > 0 && y > 0)
-            //{
-            //    Console.WriteLine("因 x 、 y 皆為正數，故 z = 1");
+            //int z;//宣告變數
+            //    //Console.WriteLine("因 x 、 y 皆為正數，故 z = 1");//省略
+            //    z = 1;
             //}
             //else if (x < 0 && y < 0)
             //{
-            //    Console.WriteLine("因 x 、 y 皆為負數，故 z = -1");
+            //    //Console.WriteLine("因 x 、 y 皆為負數，故 z = -1");//省略
+            //    z = -1;
             //}
             //else
             //{
-            //    Console.WriteLine("x、y 非皆為正數或皆為負數，故z = 0");
+            //    //Console.WriteLine("x、y 非皆為正數或皆為負數，故z = 0");//省略
+            //    z = 0;
             //}
-
+            //Console.WriteLine($"z = {z}");
             //Console.ReadKey();
 
-            //習題2-3
+            //習題2-3 沒問題 2-3~2-5可以試著簡化看看
 
             //Console.WriteLine("請輸入x、y、u、v:");
             //Console.Write("x:");
@@ -207,7 +207,7 @@ namespace PH1._2Weins
             //Console.ReadKey();
 
 
-            //習題2-4
+            //習題2-4 沒問題
 
             //Console.WriteLine("請輸入x、y、u、v:");
             //Console.Write("x:");
@@ -233,7 +233,7 @@ namespace PH1._2Weins
 
             //Console.ReadKey();
 
-            ////習題2-5
+            ////習題2-5 沒問題
 
             //Console.WriteLine("請輸入x、y:");
             //Console.Write("x:");
@@ -256,7 +256,7 @@ namespace PH1._2Weins
             //Console.ReadKey();
 
 
-            //習題2-6
+            //習題2-6 沒問題
 
             //Console.Write("請輸入income值:");
             //double income = Convert.ToDouble(Console.ReadLine());
@@ -298,7 +298,7 @@ namespace PH1._2Weins
             //Console.ReadKey();
 
 
-            //習題2-7
+            //習題2-7 沒問題
 
             //Console.WriteLine("請輸入(x,y):");
             //Console.Write("x:");
@@ -350,7 +350,7 @@ namespace PH1._2Weins
             //Console.ReadKey();
 
 
-            //補充習題1
+            //補充習題1 沒問題
 
             //Console.Write("請輸入答對題數 :");
             //int Correct = Convert.ToInt32(Console.ReadLine());
@@ -383,7 +383,7 @@ namespace PH1._2Weins
 
 
 
-            //補充習題2
+            //補充習題2 沒問題 試著取小數前兩位.四捨五入
             //過輕(BMI<18.5)、健康體重(18.5≦BMI<24)、過重(24≦BMI<27)及肥胖(BMI≧27)
 
             //Console.Write("請輸入身高(m):");
@@ -418,8 +418,8 @@ namespace PH1._2Weins
 
 
 
-            //補充習題3
-
+            //補充習題3 沒問題 if-else已經很熟練 
+            //之後會教陣列/foreach迴圈可以再用其他方式寫看看
             //Console.WriteLine("請輸入任意三個數 x 、 y 、 z :");
             //Console.Write(" x: ");
             //double x = Convert.ToDouble(Console.ReadLine());
@@ -496,7 +496,7 @@ namespace PH1._2Weins
 
             //Console.ReadKey();
 
-            //補充習題4
+            //補充習題4 計算錯誤 再檢查一下
             //利潤低於或等於10萬元時，獎金可提10%；
             //利潤高于10萬元，低於20萬元時，低於10萬元的部分按10 % 提成，高於10萬元的部分，可提成7.5 %；
             //20萬到40萬之間時，高於20萬元的部分，可提成5 %；
@@ -556,9 +556,9 @@ namespace PH1._2Weins
             //Console.ReadKey();
 
 
-            //追加習題
+            //追加習題 很棒使用了case int s when (條件) 但是default不會被執行 修改(s >= 90 && s <= 100)才會執行喔
+            //可以試看看不用when寫看看
             //使用switch改寫：輸入一個學生的分數，輸出該成績級別
-
             //Console.Write("請輸入學生分數:");
             //int Score = Convert.ToInt32(Console.ReadLine());
 
@@ -590,6 +590,6 @@ namespace PH1._2Weins
             //}
 
             //Console.ReadKey();
-            }
         }
+    }
     }
